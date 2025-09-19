@@ -1,0 +1,37 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ListyCity" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/black</item> <!-- Toolbar background -->
+        <item name="colorPrimaryVariant">@color/dark_gray</item> <!-- Status bar color -->
+        <item name="colorOnPrimary">@color/white</item> <!-- Toolbar title text color -->
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/light_gray</item>
+        <item name="colorSecondaryVariant">@color/light_gray</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+
+        <!-- Window background -->
+        <item name="android:windowBackground">@color/white</item>
+
+        <!-- Text colors -->
+        <item name="android:textColorPrimary">@color/black</item> <!-- Default text color -->
+        <item name="android:textColorSecondary">@color/dark_gray</item> <!-- Hint text, secondary text -->
+
+        <!-- Button styling (Material 3 buttons will pick up primary/secondary colors) -->
+        <!-- You can further customize button styles if needed -->
+        <item name="materialButtonStyle">@style/App.Button.BlackAndWhite</item>
+    </style>
+
+    <style name="Theme.ListyCity" parent="Base.Theme.ListyCity" />
+
+    <!-- Custom Button Style for Black and White -->
+    <style name="App.Button.BlackAndWhite" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/light_gray</item> <!-- Button background -->
+        <item name="android:textColor">@color/black</item>     <!-- Button text color -->
+        <item name="rippleColor">@color/dark_gray</item>     <!-- Ripple effect for button press -->
+    </style>
+</resources>
+    
