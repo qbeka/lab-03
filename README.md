@@ -1,7 +1,7 @@
 # CMPUT 301 : Lab 3 Participation Exercise
 
-Qendrim Beka
-qendrim
+- **Full Name:** `Qendrim Beka`
+- **CCID:** `qendrim`
 
 ## References and Resources
 
